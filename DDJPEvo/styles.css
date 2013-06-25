@@ -1,0 +1,208 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #c0c0c0;
+	background: #000000 url(images/header_shoe.png) no-repeat top;
+}
+
+h1, h2, h3 {
+	margin-bottom: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FF0000;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	}
+
+h3 {
+}
+
+p, ol, ul {
+	margin-bottom: 1.5em;
+	line-height: 1.5em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FF0000;
+}
+
+
+/* Header */
+
+#header {
+	width: 1024px;
+	height: 309px;
+	margin: 0 auto;
+	padding: 0 25px 10px 25px;
+
+}
+
+#header h1 {
+	margin: 0;
+	padding: 100px 0 0 10px;
+	font-size: 24px;
+}
+
+#header h1 a {
+	color: #FFFFFF;
+}
+
+#header h2 {
+	margin: 0;
+	padding: 0 0 0 75px;
+	font: bold 10px Arial, Helvetica, sans-serif;
+}
+
+#header h2 a {
+	color: #ffffff;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 710px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 460px;
+	padding: 5px 0 0 5px;
+	background: url(images/img03.gif) no-repeat;
+}
+
+.post {
+	width: 420px;
+	padding: 20px 0 0 20px;
+}
+
+.post h1, .post h2, .post h3 {
+}
+
+.post .title {
+	padding: 0 0 5px 0;
+	background: url(images/img08.gif) repeat-x left bottom;
+}
+
+.post .title span {
+	padding-right: 30px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+	padding: 5px 5px 0 0;
+	background: url(images/img04.gif) no-repeat;
+}
+
+.box {
+	width: 239px;
+	padding-left: 1px;
+}
+
+.box .title {
+	height: 33px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: url(images/img09_red.gif) repeat-x;
+	font-size: 18px;
+}
+
+.box ul {
+	margin: 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.box li {
+	padding: 5px 0;
+	background: url(images/img10.gif) repeat-x;
+}
+
+.box li.first {
+	background: none;
+}
+
+.box h3 {
+	margin: 0;
+	font-size: 85%;
+	font-weight: bold;
+	color: #c0c0c0;
+}
+
+.box p {
+	margin: 0;
+	line-height: normal;
+}
+
+.box a {
+	padding-left: 10px;
+	background: url(images/img11.gif) no-repeat 0 5px;
+}
+
+/* Footer */
+
+#footer {
+	height: 90px;
+	padding-top: 30px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(images/footer_red.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0px;
+	line-height: normal;
+	font-size: 77%;
+	color: #ffffff;
+}
+
+#footer a {
+	color: #ffffff;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}

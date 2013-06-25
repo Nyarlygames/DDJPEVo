@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/04/17 14:43:52.005.pas,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit2.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\jcj.pas</Transaction>
+    <Transaction>2009/04/17 14:43:52.041.dfm,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit2.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\jcj.dfm</Transaction>
+    <Transaction>2009/04/17 14:44:14.814.dproj,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\joueur.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

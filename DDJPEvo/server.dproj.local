@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/12/24 18:26:23.239.pas,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit1.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\testchat.pas</Transaction>
+    <Transaction>2008/12/24 18:26:23.239.dfm,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit1.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\testchat.dfm</Transaction>
+    <Transaction>2008/12/24 18:26:39.445.dproj,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\testtchat.dproj</Transaction>
+    <Transaction>2009/01/07 17:00:54.832.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\testchat.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\Serveur.pas</Transaction>
+    <Transaction>2009/01/07 17:00:54.894.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\testchat.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\Serveur.dfm</Transaction>
+    <Transaction>2009/01/07 17:01:17.980.dproj,C:\Users\Chaugnar\Desktop\DDJPEvo\testtchat.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\server.dproj</Transaction>
+    <Transaction>2009/01/07 17:01:18.102.txaPackage,C:\Users\Chaugnar\Desktop\DDJPEvo\ModelSupport_testtchat\default.txaPackage=</Transaction>
+  </Transactions>
+</BorlandProject>

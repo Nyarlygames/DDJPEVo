@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9d37d799-246e-4162-9968-44ad3982a469}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="ClientChat.dproj" />
+    <Projects Include="server.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="server">
+    <MSBuild Projects="server.dproj" Targets="" />
+  </Target>
+  <Target Name="server:Clean">
+    <MSBuild Projects="server.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="server:Make">
+    <MSBuild Projects="server.dproj" Targets="Make" />
+  </Target>
+  <Target Name="ClientChat">
+    <MSBuild Projects="ClientChat.dproj" Targets="" />
+  </Target>
+  <Target Name="ClientChat:Clean">
+    <MSBuild Projects="ClientChat.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="ClientChat:Make">
+    <MSBuild Projects="ClientChat.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="server;ClientChat" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="server:Clean;ClientChat:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="server:Make;ClientChat:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

@@ -1,0 +1,58 @@
+<unires>
+	<!-- 
+ 
+ The following is the description of images used by the application.
+ Notice that images are loaded on per-request basis, using one of 
+ the following calls: ResolveImage(), Image property, 
+ 
+ -->
+	<image-group name="/images/base" option="normal">
+		<image uid="Walk" type="image">
+			<format type="A4R4G4B4" miplevels="auto"/>
+			<pattern width="40" height="40" count="2" padx="0" pady="0"/>
+			<colorkey value="#0000FF"/>
+			<textures count="1">
+				<texture num="0" source="/Gfx/walk.bmp"/>
+			</textures>
+		</image>
+		<image uid="Rolling" type="image">
+			<format type="A4R4G4B4" miplevels="auto"/>
+			<pattern width="40" height="40" count="16" padx="0" pady="0"/>
+			<colorkey value="#0000FF"/>
+			<textures count="1">
+				<texture num="0" source="/Gfx/Rolling.bmp"/>
+			</textures>
+		</image>
+		<image uid="Run" type="image">
+			<format type="A4R4G4B4" miplevels="auto"/>
+			<pattern width="40" height="40" count="2" padx="0.5" pady="0"/>
+			<colorkey value="#0000FF"/>
+			<textures count="1">
+				<texture num="0" source="/Gfx/Run.bmp"/>
+			</textures>
+		</image>
+		<image uid="Scare" type="image">
+			<format type="A4R4G4B4" miplevels="auto"/>
+			<pattern width="40" height="40" count="8" padx="0" pady="0"/>
+			<colorkey value="#0000FF"/>
+			<textures count="1">
+				<texture num="0" source="/Gfx/Scare.bmp"/>
+			</textures>
+		</image>
+		<image uid="HandStand" type="image">
+			<format type="A8R8G8B8" miplevels="auto"/>
+			<pattern width="40" height="40" count="2" padx="1" pady="0"/>
+			<colorkey value="#0000FF"/>
+			<textures count="1">
+				<texture num="0" source="/Gfx/HandStand.bmp"/>
+			</textures>
+		</image>
+		<image uid="Background" type="image">
+			<format type="A8R8G8B8" miplevels="auto"/>
+			<pattern width="800" height="600"/>
+			<textures count="1">
+				<texture num="0" source="/Gfx/Background.bmp"/>
+			</textures>
+		</image>
+	</image-group>
+</unires>

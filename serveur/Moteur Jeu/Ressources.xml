@@ -1,0 +1,121 @@
+<unires>
+
+	<image-group name="default group">
+
+		<image uid="PolicePicture" type="image">
+			<format type="a8r8g8b8" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Fonts\graff.png"/>
+			</textures>
+		</image>
+
+		<image uid="ImageDVP" type="image" height="100" width="160">
+			<format type="a8r8g8b8" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Images\DVP.png"/>
+			</textures>
+		</image>
+		
+		<image uid="Background" type="image">
+			<format type="x8r5g6b5" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Images\Back.jpg"/>
+			</textures>
+		</image>		
+	
+ <image uid="bas" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\bas.png" /> 
+  </textures>
+ </image>
+ <image uid="basv" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\basv.png" /> 
+  </textures>
+ </image>
+
+<image uid="basb" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\basb.png" /> 
+  </textures>
+ </image>
+
+ <image uid="haut" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\haut.png" /> 
+  </textures>
+ </image>
+ <image uid="hautv" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\hautv.png" /> 
+  </textures>
+ </image>
+
+<image uid="hautb" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\hautb.png" /> 
+  </textures>
+ </image>
+
+ <image uid="droite" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\droite.png" /> 
+  </textures>
+ </image>
+ <image uid="droitev" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\droitev.png" /> 
+  </textures>
+ </image>
+
+<image uid="droiteb" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\droiteb.png" /> 
+  </textures>
+ </image>
+
+ <image uid="gauche" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\gauche.png" /> 
+  </textures>
+ </image>
+ <image uid="gauchev" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\gauchev.png" /> 
+  </textures>
+ </image>
+
+<image uid="gaucheb" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\..\Gameplay\Img\gaucheb.png" /> 
+  </textures>
+ </image>
+
+<image uid="Back" type="image">
+			<format type="x8r5g6b5" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source="..\..\Gameplay\Img\Back.jpg"/>
+			</textures>
+		</image>
+
+</image-group>
+
+
+	<font-group name="default group">
+
+		<font uid="CustomPolice" type="bitmap" image="PolicePicture" space="0.5" desc=".\Fonts\graff.xml" />
+	</font-group>
+
+</unires>

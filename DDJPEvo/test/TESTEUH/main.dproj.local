@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/04/13 21:23:56.868.pas,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit1.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\menu.pas</Transaction>
+    <Transaction>2009/04/13 21:23:56.868.dfm,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit1.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\menu.dfm</Transaction>
+    <Transaction>2009/04/13 21:24:12.008.dproj,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\main.dproj</Transaction>
+    <Transaction>2009/04/13 21:54:25.329.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\menu.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\main.pas</Transaction>
+    <Transaction>2009/04/13 21:54:25.329.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\menu.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\main.dfm</Transaction>
+    <Transaction>2009/04/13 22:03:58.067.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\main.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\mainfrm.pas</Transaction>
+    <Transaction>2009/04/13 22:03:58.067.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\main.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\mainfrm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

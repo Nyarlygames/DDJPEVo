@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/04/14 17:46:06.212.pas,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit2.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\builder.pas</Transaction>
+    <Transaction>2009/04/14 17:46:06.212.dfm,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit2.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\builder.dfm</Transaction>
+    <Transaction>2009/04/14 17:46:19.445.dproj,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\editeur.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

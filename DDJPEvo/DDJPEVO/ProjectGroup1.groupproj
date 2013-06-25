@@ -1,0 +1,34 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e3e9981b-b402-416c-8ed5-b3a6f32f53bb}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="Effect.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Effect">
+    <MSBuild Projects="Effect.dproj" Targets="" />
+  </Target>
+  <Target Name="Effect:Clean">
+    <MSBuild Projects="Effect.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Effect:Make">
+    <MSBuild Projects="Effect.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Effect" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Effect:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Effect:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

@@ -1,0 +1,79 @@
+<unires>
+
+
+<agui>
+
+<control class="TGuiForm" name="MainFrm">
+ <property name="Shape" text="form:full" />
+ <property name="DragShape" text="form:drag" />
+ <property name="CaptRect" x="16" y="0" width="256" height="32" />
+ <property name="CaptFont" text="BookAntiqua" />
+ <property name="CaptColor" color="#F0DEBF" alpha="128" />
+ <property name="Caption" text="Menu" />
+ <property name="CaptHAlign" align="left" />
+ <property name="Enabled" value="yes" />
+ <property name="Visible" value="yes" />
+ <property name="CaptOpt">
+ </property> 
+ <property name="Skin">
+  <normal skin="gui:form" left="24" top="16" right="489" bottom="240" />
+ </property>
+ 
+
+
+ <control class="TGuiButton" name="Button1">
+  <property name="Shape" text="button" />
+  <property name="CaptRect" x="0" y="0" width="136" height="32" />
+  <property name="CaptFont" text="BookAntiqua" />
+  <property name="CaptColor" color="#F0DEBF" alpha="128" />
+  <property name="Origin" x="0" y="0" />
+  <property name="Caption" text="Moteur phsyqieu" />
+  <property name="CaptHAlign" align="center" />
+  <property name="CaptVAlign" align="center" />
+  <property name="Enabled" value="yes" />
+  <property name="Visible" value="yes" />
+  <property name="CaptOpt">
+  </property> 
+  <property name="Skin">
+   <normal skin="gui:controls" left="328" top="64" right="464" bottom="96" />
+   <focused skin="gui:controls" left="328" top="64" right="464" bottom="96" />
+   <over skin="gui:controls" left="8" top="64" right="144" bottom="96" />
+   <down skin="gui:controls" left="168" top="64" right="304" bottom="96" />
+ </property>
+  <property name="CaptCol">
+   <normal color="#F0E3C7" alpha="192" />
+   <down color="#DED1B4" alpha="192" />
+  </property>
+ </control>
+ 
+
+
+<control class="TGuiButton" name="Button2">
+  <property name="Shape" text="button" />
+  <property name="CaptRect" x="0" y="0" width="136" height="32" />
+  <property name="CaptFont" text="BookAntiqua" />
+  <property name="CaptColor" color="#F0DEBF" alpha="128" />
+  <property name="Origin" x="20" y="20" />
+  <property name="Caption" text="Moteur Son" />
+  <property name="CaptHAlign" align="center" />
+  <property name="CaptVAlign" align="center" />
+  <property name="Enabled" value="yes" />
+  <property name="Visible" value="yes" />
+  <property name="CaptOpt">
+  </property> 
+  <property name="Skin">
+   <normal skin="gui:controls" left="328" top="64" right="464" bottom="96" />
+   <focused skin="gui:controls" left="328" top="64" right="464" bottom="96" />
+   <over skin="gui:controls" left="8" top="64" right="144" bottom="96" />
+   <down skin="gui:controls" left="168" top="64" right="304" bottom="96" />
+ </property>
+  <property name="CaptCol">
+   <normal color="#F0E3C7" alpha="192" />
+   <down color="#DED1B4" alpha="192" />
+  </property>
+ </control> 
+
+
+</control>
+</agui>
+</unires>

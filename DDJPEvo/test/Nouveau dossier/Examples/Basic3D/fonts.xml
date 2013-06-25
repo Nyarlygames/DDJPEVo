@@ -1,0 +1,8 @@
+<unires>
+<font-group name="all_fonts" option="normal">
+   
+ <!-- Tahoma System Font -->
+ <font uid="s/arial" type="system" name="Arial" size="9" weight="bold" charset="ansi" quality="cleartype" />  
+ 
+</font-group>
+</unires>

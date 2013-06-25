@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/01/07 17:23:44.683.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\testchat.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\Client.pas</Transaction>
+    <Transaction>2009/01/07 17:23:44.683.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\testchat.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\Client.dfm</Transaction>
+    <Transaction>2009/01/07 17:23:57.432.dproj,C:\Users\Chaugnar\Desktop\DDJPEvo\testtchat.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\ClientChat.dproj</Transaction>
+    <Transaction>2009/01/07 17:23:57.454.txaPackage,C:\Users\Chaugnar\Desktop\DDJPEvo\ModelSupport_testtchat\default.txaPackage=</Transaction>
+  </Transactions>
+</BorlandProject>

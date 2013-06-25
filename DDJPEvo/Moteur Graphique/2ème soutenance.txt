@@ -1,0 +1,3 @@
+Pour la deuxième soutenance, comme indiqué dans le cahier des charges, nous comptons avancer la partie 2D du jeux jusqu'à sa phase quasi-finale, car le plus important dans ce RPG reste les combats, qui eux seront en 3D, c'est ainsi que nous commencerons à travailler sur la partie 3D du jeu.( Même si celle-ci n'est que de l'animation .)
+
+Note : Pour cette dernière phrase, t'es pas obligé de la mettre.

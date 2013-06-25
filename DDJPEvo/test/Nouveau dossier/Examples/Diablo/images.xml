@@ -1,0 +1,129 @@
+<unires>
+	<!-- comment -->
+	<image-group name="/artwork/base" option="normal">
+
+  <image uid="miniMap" type="surface">
+   <format type="A8R8G8B8" miplevels="auto" depthstencil="no" />
+   <size width="128" height="128" />
+  </image>
+  
+		<image uid="dark lord">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="54" height="79" count="40" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/dark lord.png"/>
+			</textures>
+		</image>
+
+		<image uid="desert wing">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="98" height="77" count="40" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/desert wing.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enraged fallen">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="54" height="64" count="50" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enraged fallen.png"/>
+			</textures>
+		</image>
+		
+		<image uid="hell buzzard">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="70" height="86" count="60" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/hell buzzard.png"/>
+			</textures>
+		</image>
+		
+		<image uid="night clan">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="46" height="75" count="40" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/night clan.png"/>
+			</textures>
+		</image>
+		
+		<image uid="panel1">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="572" height="48" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/panel1.png"/>
+			</textures>
+		</image>
+		
+		<image uid="panel2">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="117" height="104" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/panel2.png"/>
+			</textures>
+		</image>
+		
+		<image uid="panel3">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="117" height="104" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/panel3.png"/>
+			</textures>
+		</image>
+		
+		<image uid="finger">
+			<format type="A8R8G8B8" miplevels="auto"/>
+			<pattern width="31" height="26" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/finger.png"/>
+			</textures>
+		</image>
+		
+		<image uid="tile">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="160" height="80" count="30" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/tile.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enraged shaman">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="123" height="111" count="70" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enraged shaman.png"/>
+			</textures>
+		</image>
+		
+		<image uid="mega demon">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="171" height="153" count="40" padx="0" pady="0"/>
+			<textures count="3">
+				<texture num="0" source="images/mega demon000.png"/>
+				<texture num="1" source="images/mega demon001.png"/>
+				<texture num="2" source="images/mega demon002.png"/>
+			</textures>
+		</image>
+		
+		<image uid="player">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="83" height="108" count="40" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/player.png"/>
+			</textures>
+		</image>
+		
+		<image uid="light">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="512" height="512" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/light.png"/>
+			</textures>
+		</image>
+		
+	</image-group>
+</unires>
+
+
+
+

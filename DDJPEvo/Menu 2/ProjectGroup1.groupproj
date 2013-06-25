@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3c52ad61-228f-4996-b5af-203ff6ce73ec}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="..\..\..\Downloads\Asphyre4snapshot30mar2007\Examples\BasicGui\BasicGui.dproj" />
+    <Projects Include="Project1.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Project1">
+    <MSBuild Projects="Project1.dproj" Targets="" />
+  </Target>
+  <Target Name="Project1:Clean">
+    <MSBuild Projects="Project1.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Project1:Make">
+    <MSBuild Projects="Project1.dproj" Targets="Make" />
+  </Target>
+  <Target Name="BasicGui">
+    <MSBuild Projects="..\..\..\Downloads\Asphyre4snapshot30mar2007\Examples\BasicGui\BasicGui.dproj" Targets="" />
+  </Target>
+  <Target Name="BasicGui:Clean">
+    <MSBuild Projects="..\..\..\Downloads\Asphyre4snapshot30mar2007\Examples\BasicGui\BasicGui.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="BasicGui:Make">
+    <MSBuild Projects="..\..\..\Downloads\Asphyre4snapshot30mar2007\Examples\BasicGui\BasicGui.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Project1;BasicGui" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Project1:Clean;BasicGui:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Project1:Make;BasicGui:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

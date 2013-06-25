@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/12/23 13:04:54.148.dproj,C:\Users\Snaker\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Snaker\Documents\RAD Studio\Projets\Effect.dproj</Transaction>
+    <Transaction>2008/12/23 13:06:03.815.dproj,C:\Users\Snaker\Documents\RAD Studio\Projets\Effect.dproj=C:\Users\Snaker\Desktop\DDJPEVO\Effect.dproj</Transaction>
+    <Transaction>2008/12/24 13:06:42.301.pas,C:\Program Files\Borland Delphi Personal Installer\VCLFR\LIB\DirectDraw.pas=</Transaction>
+    <Transaction>2008/12/24 13:06:56.527.pas,C:\Users\Snaker\Desktop\DDJPEVO\Unit1.pas=C:\Users\Snaker\Desktop\DDJPEVO\DirectDraw.pas</Transaction>
+    <Transaction>2008/12/24 13:08:05.094.pas,C:\Program Files\Borland Delphi Personal Installer\VCLFR\LIB\DirectDraw.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

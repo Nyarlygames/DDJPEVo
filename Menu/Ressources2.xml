@@ -1,0 +1,29 @@
+<unires>
+<image-group name="default group">
+ <image uid="font" type="image">
+  <format type="a8r8g8b8" miplevels="auto"/>
+  <textures count="1">
+   <texture num="0" source=".\Fonts\graff.png" />
+  </textures>
+ </image>
+ <image uid="bg" type="image">
+  <format type="a8r8g8b8" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source=".\Img\DVP_Shoe.png" /> 
+  </textures>
+ </image>
+ 
+ 		<image uid="Background" type="image">
+			<format type="x8r5g6b5" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Img\Back.jpg"/>
+			</textures>
+		</image>
+</image-group>
+
+
+
+<font-group name="default">
+<font uid="police" type="bitmap" image="font" space="0.5" desc=".\Fonts\graff.xml" />
+</font-group>
+</unires>

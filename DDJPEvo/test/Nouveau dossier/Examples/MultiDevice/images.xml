@@ -1,0 +1,26 @@
+<unires>
+
+ <!-- comment -->
+ <image-group name="/artwork/base" option="normal">
+ 
+  
+  <image uid="/images/tile">
+   <format type="DXT3" miplevels="auto" />
+   <pattern width="128" height="128" count="30" padx="0" pady="0" />
+   <textures count="1">
+    <texture num="0" source="images/tile.png" />
+   </textures>
+  </image>
+  
+
+  <image uid="/images/fire">
+   <format type="DXT3" miplevels="auto" />
+   <pattern width="128" height="128" count="32" padx="0" pady="0" />
+   <textures count="1">
+    <texture num="0" source="images/fire.png" />
+   </textures>
+  </image>
+    
+ </image-group>
+ 
+</unires>

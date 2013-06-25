@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/03/02 18:02:32.465.pas,C:\Users\Snaker\Documents\RAD Studio\Projets\Unit2.pas=C:\Users\Snaker\Documents\RAD Studio\Projets\MoteurSon.pas</Transaction>
+    <Transaction>2009/03/02 18:10:45.857.pas,C:\Users\Snaker\Documents\RAD Studio\Projets\MoteurSon.pas=C:\Users\Snaker\Desktop\Moteur Son\MoteurSon.pas</Transaction>
+    <Transaction>2009/03/02 18:10:48.665.pas,C:\Users\Snaker\Documents\RAD Studio\Projets\Unit1.pas=C:\Users\Snaker\Desktop\Moteur Son\Unit1.pas</Transaction>
+    <Transaction>2009/03/02 18:10:48.665.dfm,C:\Users\Snaker\Documents\RAD Studio\Projets\Unit1.dfm=C:\Users\Snaker\Desktop\Moteur Son\Unit1.dfm</Transaction>
+    <Transaction>2009/03/02 18:10:51.388.dproj,C:\Users\Snaker\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Snaker\Desktop\Moteur Son\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

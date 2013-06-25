@@ -1,0 +1,14 @@
+<unires>
+<image-group name="all_images" option="normal">
+   
+ <image uid="material1.jpg" type="image">
+  <format type="A8R8G8B8" miplevels="auto" />
+  <pattern width="256" height="256" count="1" padx="0" pady="0" />
+   
+  <textures count="1">
+   <texture num="0" source="material1.jpg" />    
+  </textures>
+ </image>
+  
+</image-group>
+</unires>

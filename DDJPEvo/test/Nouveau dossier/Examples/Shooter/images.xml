@@ -1,0 +1,111 @@
+<unires>
+	<!-- comment -->
+	<image-group name="/artwork/base" option="normal">
+
+  <image uid="miniMap" type="surface">
+   <format type="A8R8G8B8" miplevels="auto" depthstencil="no" />
+   <size width="128" height="128" />
+  </image>
+  
+		<image uid="bulletr">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="256" height="256" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/bulletr.png"/>
+			</textures>
+		</image>
+
+		<image uid="ship4">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="128" height="128" count="4" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/ship4.png"/>
+			</textures>
+		</image>
+		
+		<image uid="tail">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="40" height="20" count="3" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/tail.png"/>
+			</textures>
+		</image>
+		
+		<image uid="jungle">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="800" height="1024" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/jungle.png"/>
+			</textures>
+		</image>
+		
+		<image uid="cloud1">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="200" height="128" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/cloud1.png"/>
+			</textures>
+		</image>
+		
+		<image uid="cloud0">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="256" height="256" count="1" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/cloud0.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enemy0">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="64" height="64" count="8" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enemy0.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enemy1">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="64" height="64" count="8" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enemy1.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enemy2">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="64" height="64" count="8" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enemy2.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enemy3">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="64" height="64" count="8" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enemy3.png"/>
+			</textures>
+		</image>
+		
+		<image uid="enemy4">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="64" height="64" count="8" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/enemy4.png"/>
+			</textures>
+		</image>
+		
+		<image uid="explode">
+			<format type="DXT3" miplevels="auto"/>
+			<pattern width="64" height="64" count="32" padx="0" pady="0"/>
+			<textures count="1">
+				<texture num="0" source="images/explode.png"/>
+			</textures>
+		</image>
+		
+	</image-group>
+</unires>
+
+
+
+

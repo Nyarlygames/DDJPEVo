@@ -1,0 +1,32 @@
+<unires>
+
+	<image-group name="default group">
+
+		<image uid="PolicePicture" type="image">
+			<format type="a8r8g8b8" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Fonts\graff.png"/>
+			</textures>
+		</image>
+
+		<image uid="ImageDVP" type="image" height="100" width="160">
+			<format type="a8r8g8b8" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Images\DVP.png"/>
+			</textures>
+		</image>
+		
+		<image uid="Background" type="image">
+			<format type="x8r5g6b5" miplevels="auto"/>
+			<textures count="1">
+				<texture num="0" source=".\Images\Back.jpg"/>
+			</textures>
+		</image>		
+	</image-group>
+
+	<font-group name="default group">
+
+		<font uid="CustomPolice" type="bitmap" image="PolicePicture" space="0.5" desc=".\Fonts\graff.xml" />
+	</font-group>
+
+</unires>

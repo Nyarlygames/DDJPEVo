@@ -1,0 +1,23 @@
+<unires>
+<image-group name="default group">
+ <image uid="bas" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\Gameplay\Img\bas.png" /> 
+  </textures>
+ </image>
+ <image uid="vide" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\Gameplay\Img\vide.png" /> 
+  </textures>
+ </image>
+
+<image uid="black" type="image">
+  <format type="x8r5g6b5" miplevels="auto" /> 
+  <textures count="1">
+  <texture num="0" source="..\Gameplay\Img\bas_black.png" /> 
+  </textures>
+ </image>
+</image-group>
+</unires>

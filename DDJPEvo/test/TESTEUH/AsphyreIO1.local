@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/03/02 21:03:55.546.pas,C:\Documents and Settings\maman\Bureau\Moteur Physique 3\Unit1.pas=C:\Documents and Settings\maman\Bureau\Moteur Physique 3\MoteurSon.pas</Transaction>
+    <Transaction>2009/03/06 00:20:08.967.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\Moteur Jeu\MoteurSon.pas=</Transaction>
+    <Transaction>2009/04/13 19:55:33.626.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\Unit3.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\haut.pas</Transaction>
+    <Transaction>2009/04/13 19:55:39.027.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\Unit2.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\gauche..pas</Transaction>
+    <Transaction>2009/04/13 19:55:58.672.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\gauche..pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\gauche.pas</Transaction>
+    <Transaction>2009/04/13 19:56:03.795.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\Unit1.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\droite.pas</Transaction>
+    <Transaction>2009/04/13 20:02:15.537.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\TESTEUH\droite.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

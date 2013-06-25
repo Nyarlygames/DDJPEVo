@@ -1,0 +1,31 @@
+Intro.
+
+Pour le moteur graphique de notre jeu, comme dit dans notre cahier des charges, nous allons utiliser l'API DirectX. Mais pour faciliter les choses, nous utiliserons Asphyres, ce choix a été fait de par sa simplicité d'utilisation et de par son efficacité. De plus, il a l'avantage de toujours être d'actualité grâce au travail de Yuriy Kotsarenko, notons également la présence d'un forum officiel permettant de demander toute aide.
+
+1) Il était une fois
+
+Le commencement a été rude, en effet, n'ayant jamais codé par le passé, je me retrouvais comme qui dirait, dans la fosse aux lions, livré à moi-même, n'ayant qu'un chemin à suivre, lire et pratiquer. La recherche de tutos débutat alors. Ayant pour première idée d'utiliser la fenêtre fournie par : VCL forms application - Delphi for win 32, je fus vite désillusionné par un tuto qui dès le début me disais de mettre cette fenêtre aux oubliettes pour en recréer une autre, car après tout, une fenêtre est une variable comme une autre. Mais dans tous les cas, celle-ci devant se fermer après avoir appuyé sur Echap.
+Ainsi, à la fin de ce tutorial, je tombais donc sur un joli écran noir avec des rectangles qui se balladaient tout en s'attirant entre eux.
+
+( afficher picture 1 )
+
+Arrivé à ce stade, je ne savais que faire, modifier ce code? Cette entreprise fut vaine. Je décidais donc de rechercher d'autres tutos. C'est alors qu'on me conseilla d'essayer Asphyre ...
+
+
+2) Asphyre
+
+Après quelques recherches sur mon ami Google, je découvrais un tutorial très complet sur le développement à l'aide d'Asphyre. Je me lancais donc corps et âme dedans. D'où ma première création, celle qui me rendit le plus heureux, car bien qu'ayant suivi un autre tuto auparavant, je n'avais pas l'impression d'avoir appris les bases. C'est donc ainsi, qu'après la découverte d'Asphyre, je créais mon premier rectangle. Or ceci était fort simple, je me lançais donc dans la conception d'un .exe fort représentatif.
+
+( afficher picture 2 )
+
+Ainsi, comme on peut le voir, les lettres sont composées de primitives sous forme de rectangles et de carrés. Leur appel étant excessivement simple grâce à TAsphyreCanvas et TAsphyreDevice.
+
+    AsphyreCanvas1.Rectangle(210, 20, 70, 20, clGreen, clGreen, 1);
+    AsphyreCanvas1.Rectangle(280, 40, 20, 80, clGreen, clGreen, 1);
+    AsphyreCanvas1.Rectangle(210, 40, 20, 80, clGreen, clGreen, 1);
+    AsphyreCanvas1.Rectangle(210, 120, 70, 20, clGreen, clGreen, 1);
+
+( Code d'affichage d'un D ).
+
+Ici, on retrouve tout d'abord, la position où sera positionnée la forme souhaitée ( 210 ; 20 ) ici, puis, la longueur et la largeur de cette forme, après, la couleur du contour de la forme puis son fond, et enfin le "1" représentant un effet permettant de dessiner cette image.
+Bien sur, il manque TAsphyreTimer qui est présent, bien qu'il n'y ait pas de mouvement, celui-ci comme son nom l'indique très bien gère le temps, bien qu'il n'y ait pas d'exemple ici, il permet faire que les mouvements soient en accord avec l'action et non discontinus, un mouvement constant donc.

@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2fc0e75d-baf0-4b03-86b9-5ecbe1f4b016}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="..\..\Editeur\Editeur.dproj" />
+    <Projects Include="Bon.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Bon">
+    <MSBuild Projects="Bon.dproj" Targets="" />
+  </Target>
+  <Target Name="Bon:Clean">
+    <MSBuild Projects="Bon.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Bon:Make">
+    <MSBuild Projects="Bon.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Editeur">
+    <MSBuild Projects="..\..\Editeur\Editeur.dproj" Targets="" />
+  </Target>
+  <Target Name="Editeur:Clean">
+    <MSBuild Projects="..\..\Editeur\Editeur.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Editeur:Make">
+    <MSBuild Projects="..\..\Editeur\Editeur.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Bon;Editeur" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Bon:Clean;Editeur:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Bon:Make;Editeur:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

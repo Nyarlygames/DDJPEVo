@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/04/14 14:02:12.958.pas,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit2.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\asphyreIO.pas</Transaction>
+    <Transaction>2009/04/14 14:02:12.958.dfm,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Unit2.dfm=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\asphyreIO.dfm</Transaction>
+    <Transaction>2009/04/14 14:02:23.297.dproj,C:\Users\Chaugnar\Documents\RAD Studio\Projets\Project1.dproj=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\Bon.dproj</Transaction>
+    <Transaction>2009/04/14 15:30:58.113.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\haut.pas=</Transaction>
+    <Transaction>2009/04/14 15:30:58.113.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\haut.dfm=</Transaction>
+    <Transaction>2009/04/14 15:31:00.508.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\gauche.pas=</Transaction>
+    <Transaction>2009/04/14 15:31:00.508.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\gauche.dfm=</Transaction>
+    <Transaction>2009/04/14 15:31:02.693.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\bas.pas=</Transaction>
+    <Transaction>2009/04/14 15:31:02.694.dfm,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\bas.dfm=</Transaction>
+    <Transaction>2009/04/14 15:54:11.390.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\Unit1.pas=C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\types.pas</Transaction>
+    <Transaction>2009/04/14 15:58:33.745.pas,C:\Users\Chaugnar\Desktop\DDJPEvo\test\test\types.pas=</Transaction>
+    <Transaction>2009/04/18 11:00:59.616.dproj,C:\Users\Chaugnar\Desktop\serveur\Bon.dproj=C:\Users\Chaugnar\Desktop\serveur\Serveur.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
